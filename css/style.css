@@ -1,0 +1,89 @@
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: #000000;
+    background: linear-gradient(45deg,#660edd, #3250ed, #0985fb );
+    color: #ffffff;
+}
+
+#intro p{
+    max-width: 700px;
+}
+
+.main-buds{
+    float: right;
+}
+
+.logo{
+    float: left;
+}
+
+#navbar{
+    background-color: #333333;
+    color: #ffffff;
+    text-align: right;
+}
+
+#navbar ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#intro{
+    background: linear-gradient(45deg,#660edd, #3250ed, #0985fb );
+
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a :hover{
+    color: #0985fb;
+}
+
+.button{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 15px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.button :hover{
+    background: #0985fb;
+    color: white;
+}
+
+.clr{
+    clear: both;
+}
