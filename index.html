@@ -2,61 +2,143 @@
 <html>
 <head>
     <title>Samsung Galaxy Buds+ | Product Information</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        window.onscroll = function() {myFunction()};
+        var header = document.getElementById("navbar");
+        var sticky = header.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset >= sticky){
+                header.classlist.add("sticky")
+            } else {
+                header.classlist.remove("sticky")
+            }
+        }
+    </script>
 </head>
 <body>
     <header id="main-header">
-        <div class="container">
-            <h1 id="logo"><img src="images/samsung-logo-text-png-1.png" alt="Samsung"></h1>
-        </div>
+                <img class="logo" src="images/samsung-logo-text-png-1.png" alt="Samsung">
+            
+                <nav id="navbar">
+                    <ul>
+                        <li><a href="#intro">Intro</a></li>
+                        <li><a href="#features">Sound</a></li>
+                        <li><a href="#color-features">Colors</a></li>
+                        <li><a href="#other-features">Extras</a></li>
+                    </ul>
+                </nav>
+                    <a class="cta" href="#"><button>Buy Now</button></a>  
+    
+<!----------------------------------Responsive Nav Start--------------------------------   
+                <div class="topnav" id="myTopnav">
+                    <a href="#intro" class="active">Intro</a>
+                    <a href="#features">Features</a>
+                    <a href="#colors">Color Options</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+
+----------------------------------Responsive Nav End---------------------------------->
+    
     </header>
-    <nav id="navbar">
-        <div class="container">
-        <ul>
-            <li><a href="#">Intro</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Specs</a></li>
-            <li><a href="#">Buy</a></li>
-        </ul>
-        </div>
-    </nav>
-
+                  
     <section id="intro">
-        <div class="container">
-            <h4>The All New</h4>
-            <h1>Galaxy Buds+</h1>
-            <p>The next generation of Galaxy Buds is here, taking sound quality and control to new harmonic heights. From automatically tuning out unwanted noise¹,
-                to a battery built to go all day, the way you experience sound is about to change.</p>
-            <a class="button" href="#">Buy Now</a>
-            <img class="main-buds" src="images/galaxy-buds-white-pair-m.png" width="400px" alt="Buds">
-        </div>
+                <div class="container">
+                    <h4>The All New</h4>
+                    <h1>Galaxy Buds+</h1>
+                    <p>The next generation of Galaxy Buds is here, taking sound quality and control to new harmonic heights. From automatically tuning out unwanted noise¹,
+                        to a battery built to go all day, the way you experience sound is about to change.</p>
+                    <a class="button" href="#"><button>Buy Now</button></a>
+                    <img class="main-buds" src="images/galaxy-buds-white-pair-m.png" width="400px" alt="Buds">
+                </div>
     </section>
-
+    <!---------------------------------------------------Features 1 Start----------------------------------------------->        
     <section id="features">
         <div class="container">
-            <h3>Sound by AKG</h3>
+            <div class="akg">
+            <br>
+            <img class="akg-logo" src="images/galaxy-buds-plus-akg-logo.png" width="150px" alt="AKG Logo">
             <p>
                 Premium sound by AKG delivers superb dynamic range and exceptional sound accuracy
-thanks to the woofer and tweeter inside each tiny bud.
+                thanks to the woofer and tweeter inside each tiny bud.
             </p>
+            <img class="buds-worn" src="images/galaxy-buds-plus-kv-720-end.jpg" width="400px" alt="Buds Worn">
+            </div>
+    </section>
+    
+    <!------------------------------------------------------Features 2 Start----------------------------------------------------->
 
-            <h3>Selective Hearing</h3>
+    <section id="features2">
+            <div class="container">   
             <p>
-                Galaxy Buds+'s customizable fit tunes out unwanted noises, while Ambient Aware¹ lets you filter-in important sounds from the outside world, 
+                <Strong>Selective Hearing</Strong><br><br>Galaxy Buds+'s customizable fit tunes out unwanted noises, while Ambient Aware¹ lets you filter-in important sounds from the outside world, 
                 like flight announcements, oncoming traffic or your order number. 
             </p>
-
-            <h3>22 hours of serious sound</h3>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!--------------------------------------------------------Fetures 3 Start------------------------------------------------>
+    <section id="features3">
+        <div class="container">
             <p>
-                Get up to 11 hours of non-stop music on a single charge. Then pop your Galaxy Buds+ in the wireless case and get nearly 11 more. In a rush? A three-minute charge gives you one hour of juice to power through a workout. Or share your phone’s battery 
+                <Strong>22 hours of serious sound</Strong><br><br>Get up to 11 hours of non-stop music on a single charge. Then pop your Galaxy Buds+ in the wireless case and get nearly 11 more. In a rush? A three-minute charge gives you one hour of juice to power through a workout. Or share your phone’s battery 
                 by placing your buds on the back of your Galaxy for a wireless, on-the-go charge.
             </p>
+            <br>
             <ul>
                 <li>Battery Life: 22 hours</li>
                 <li>Talk Time: 15 hours</li>
                 <li>Music Streaming Time: 11 hours</li>
             </ul>
+            <img class="buds-circle" src="images/Popcorn_all_day_comfort_half_bleed_D.jpg" width="400px" alt="Buds Worn">
 
+            <br>
+        </div>
+    </section>
+    <!--------------------------------------------------------Fetures 3 End------------------------------------------------->
+   
+    <br>
+    <hr>
+    <br>
+    <!--this is where the color section begins-->
+        <section id="color-features">
+            <br>
+            <h2>Color Options</h2>
+              
+            <div class="block">
+                <a class="red" href="#"><strong>Red</strong></a>
+                <a class="button-colors" href="#"><button>Buy Now</button></a>
+            </div>
+            
+            <div class="block">
+            <a class="black" href="#"><strong>Cosmic Black</strong></a>                
+            <a class="button-colors" href="#"><button>Buy Now</button></a>
+            </div>
+
+            <div class="block">
+            <a class="white" href="#"><strong>White</strong></a>   
+            <a class="button-colors" href="#"><button>Buy Now</button></a>             
+            </div>
+
+            <div class="block">
+            <a class="blue" href="#"><strong>Cloud Blue</strong></a>  
+            <a class="button-colors" href="#"><button>Buy Now</button></a>              
+            </div>
+    
+        </section>
+    
+    <!--this is where the color section ends-->
+
+    <hr class="bottom">     
+    <section id="other-features">
+            <br>
+            <h2>Other Features</h2>
+            <br>        
             <div class="block">
                 <h3>Fits Just Right</h3>
                 <p>
@@ -82,9 +164,8 @@ thanks to the woofer and tweeter inside each tiny bud.
                     Thanks to IPX2 splash-resistant technology, Galaxy Buds+ can handle a light drizzle, a little sweat and even the accidental spill.
                 </p>
             </div>
-
-        </div>
     </section>
+
     <div class="clr"></div>
     <footer id="main-footer">
         <p>Copyright &copy;2020 Danny Guzman</p>
